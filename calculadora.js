@@ -40,8 +40,8 @@ function projecaoScreen(number) {
     return `Voce investiu R$${number}, a projeção aproximada da quantidade máxima de pessoas que visualizarão o anúncio é de ${projecao(number)} pessoas.`
 }
 
-//const value = prompt('Escolha o valor a ser investido ');
-//console.log(projecaoScreen(value))
+const value = prompt('Escolha o valor a ser investido ');
+console.log(projecaoScreen(value))
 
 module.exports = {
     projecao,
